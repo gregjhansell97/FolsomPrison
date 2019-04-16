@@ -1,0 +1,33 @@
+
+{
+    "1": {
+        "is_occupied": true
+    },
+    "2": {
+        "is_occupied": false
+    },
+    "3": {
+        "is_occupied": false
+    },
+    "4": {
+        "is_occupied": false
+    },
+    "5": {
+        "is_occupied": true
+    },
+    "6": {
+        "is_occupied": false
+    },
+    "7": {
+        "is_occupied": false
+    },
+    "8": {
+        "is_occupied": false
+    },
+    "9": {
+        "is_occupied": false
+    },
+    "10": {
+        "is_occupied": false
+    }
+}

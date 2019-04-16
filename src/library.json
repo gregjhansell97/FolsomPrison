@@ -1,0 +1,171 @@
+
+{
+    "floors": [
+        {
+            "name": "First Floor",
+            "dim": {
+                "x": 30,
+                "y": 20
+            }
+        },
+        {
+            "name": "Second Floor",
+            "dim": {
+                "x": 30,
+                "y": 20
+            }
+        },
+        {
+            "name": "Third Floor",
+            "dim": {
+                "x": 30,
+                "y": 20
+            }
+        }
+    ],
+    "rooms": [
+        {
+            "name":"room_1",
+            "id": 1,
+            "loc":{
+                "x":2,
+                "y":3,
+                "floor":"First Floor"
+            },
+            "dim":{
+                "x":5,
+                "y":5
+            }
+        },
+        {
+            "name":"room_2",
+            "id": 2,
+            "loc":{
+                "x":2,
+                "y":8,
+                "floor":"First Floor"
+            },
+            "dim":{
+                "x":5,
+                "y":4
+            }
+        },
+        {
+            "name":"room_3",
+            "id": 3,
+            "loc":{
+                "x":2,
+                "y":12,
+                "floor":"First Floor"
+            },
+            "dim":{
+                "x":5,
+                "y":3
+            }
+        },
+        {
+            "name":"room_4",
+            "id": 4,
+            "loc":{
+                "x":2,
+                "y":15,
+                "floor":"First Floor"
+            },
+            "dim":{
+                "x":5,
+                "y":4
+            }
+        },
+        {
+            "name":"room_5",
+            "id": 5,
+            "loc":{
+                "x":7,
+                "y":17,
+                "floor":"First Floor"
+            },
+            "dim":{
+                "x":8,
+                "y":2
+            }
+        },
+        {
+            "name":"room_6",
+            "id": 6,
+            "loc":{
+                "x":7,
+                "y":3,
+                "floor":"First Floor"
+            },
+            "dim":{
+                "x":7,
+                "y":2
+            }
+        },
+        {
+            "name":"room_7",
+            "id": 7,
+            "loc":{
+                "x":14,
+                "y":3,
+                "floor":"First Floor"
+            },
+            "dim":{
+                "x":6,
+                "y":2
+            }
+        },
+        {
+            "name":"room_8",
+            "id": 8,
+            "loc":{
+                "x":20,
+                "y":3,
+                "floor":"First Floor"
+            },
+            "dim":{
+                "x":6,
+                "y":4
+            }
+        },
+        {
+            "name":"room_9",
+            "id": 9,
+            "loc":{
+                "x":23,
+                "y":7,
+                "floor":"First Floor"
+             },
+            "dim":{
+                "x":3,
+                "y":5
+            }
+        },
+        {
+            "name":"room_10",
+            "id": 10,
+            "loc":{
+                "x":23,
+                "y":12,
+                "floor":"First Floor"
+            },
+            "dim":{
+                "x":3,
+                "y":5
+            }
+        },
+        {
+            "name":"room_11",
+            "id": 11,
+            "loc":{
+                "x":19,
+                "y":17,
+                "floor":"First Floor"
+            },
+            "dim":{
+                "x":7,
+                "y":2
+            }
+        }
+    ]
+}
