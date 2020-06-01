@@ -12,13 +12,13 @@ export default {
          */
         const hosts = ["127.0.0.1:8080"]
         const host = hosts[Math.floor(Math.random()*hosts.length)];
-        axios.get("http://" + host + "/get_state") //it /hivemap/rpi/get_map
+        axios.get("http://" + host + "/get_hive_map") //it /hivemap/rpi/get_map
         .then(response => {
             store.dispatch(setMap(response.data));
         })
         .catch(error => {
             //console.log("HERE :(")
-            store.dispatch(setMap(spoof_data));
+            store.dispatch(setMap({}));
         })
 
     }
